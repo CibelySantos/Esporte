@@ -1,0 +1,64 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+nav{
+    padding: 20px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav .nav-links ul{
+    margin-right: 20px;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+nav .nav-links ul li a{
+    color: aliceblue;
+    text-decoration: none;
+    padding: 15px;
+}
+nav .nav-login{
+    background-color: black;
+}
+nav .nav-login a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    background-color: darkgray;
+}
+.secao{
+    border: solid 1px aliceblue;
+    height: 100%;
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+form{
+    background-color: rgba(194, 97, 239, 0.837);
+    border-radius: solid 4px rgb(83, 0, 128);
+    width: 320px;
+    margin: auto;
+    display: block;
+    margin-top: 200px;
+}
+input{
+    width: 90%;
+    padding: 6px;
+    margin-bottom: 8px;
+    border: 1px solid rgb(83, 0, 128);
+    border-radius: 5px;
+}
