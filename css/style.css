@@ -2,6 +2,7 @@ html, body{
     margin: 0;
     padding: 0;
     height: 100%;
+    background-color: aliceblue;
 }
 nav{
     padding: 20px;
@@ -39,7 +40,7 @@ a:hover{
     height: 100%;
 }
 footer{
-    background-color: d;
+    background-color: darkcyan;
     color: white;
     text-align: center;
     padding: 10px;
@@ -48,7 +49,7 @@ footer{
     width: 100%;
 }
 form{
-    background-color: rgba(0, 136, 182, 0.63);
+    background-color: darkcyan;
     border-radius: 10px;
     width: 330px;
     height: 250px;
@@ -63,4 +64,9 @@ input{
     margin-bottom: 8px;
     border: 1px solid darkblue;
     border-radius: 5px;
+}
+#imagem1, #imagem2{
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 15%;
 }
