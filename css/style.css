@@ -48,7 +48,7 @@ footer{
     width: 100%;
 }
 form{
-    background-color: darkolivegreen;
+    background-color: deepskyblue;
     border-radius: 10px;
     width: 330px;
     height: 250px;
@@ -61,6 +61,6 @@ input{
     width: 90%;
     padding: 6px;
     margin-bottom: 8px;
-    border: 1px solid darkgreen;
+    border: 1px solid darkblue;
     border-radius: 5px;
 }
