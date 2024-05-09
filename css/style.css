@@ -5,7 +5,7 @@ html, body{
 }
 nav{
     padding: 20px;
-    background-color: darkolivegreen;
+    background-color: darkcyan;
     color: white;
     display: flex;
     justify-content: space-between;
@@ -25,7 +25,7 @@ nav .nav-links ul li a{
     padding: 15px;
 }
 nav .nav-login{
-    background-color: darkolivegreen;
+    background-color: darkcyan;
 }
 nav .nav-login a{
     text-decoration: none;
@@ -39,7 +39,7 @@ a:hover{
     height: 100%;
 }
 footer{
-    background-color: darkolivegreen;
+    background-color: d;
     color: white;
     text-align: center;
     padding: 10px;
@@ -48,7 +48,7 @@ footer{
     width: 100%;
 }
 form{
-    background-color: deepskyblue;
+    background-color: rgba(0, 136, 182, 0.63);
     border-radius: 10px;
     width: 330px;
     height: 250px;
