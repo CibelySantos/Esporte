@@ -6,7 +6,7 @@ html, body{
 }
 nav{
     padding: 20px;
-    background-color: rgba(0, 0, 139, 0.538);
+    background-color: rgb(97, 97, 196);
     color: white;
     display: flex;
     justify-content: space-between;
@@ -24,9 +24,11 @@ nav .nav-links ul li a{
     color: aliceblue;
     text-decoration: none;
     padding: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 nav .nav-login{
-    background-color: rgba(0, 0, 139, 0.538);
+    background-color: rgb(97, 97, 196);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 nav .nav-login a{
     text-decoration: none;
@@ -40,16 +42,24 @@ a:hover{
     height: 100%;
 }
 footer{
-    background-color: rgba(0, 0, 139, 0.538);
+    background-color: rgb(97, 97, 196);
     color: white;
     text-align: center;
     padding: 10px;
-    position: fixed;
+
     bottom: 0;
     width: 100%;
 }
+footer a{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 form{
-    background-color: rgba(0, 0, 139, 0.538);
+    background-color: rgb(97, 97, 196);
     border-radius: 10px;
     width: 330px;
     height: 250px;
@@ -65,7 +75,7 @@ input{
     width: 90%;
     padding: 6px;
     margin-bottom: 8px;
-    border: 2px solid darkblue;
+    border: 2px solid rgba(0, 0, 93, 0.804);
     border-radius: 5px;
 }
 #imagem1, #imagem2{
