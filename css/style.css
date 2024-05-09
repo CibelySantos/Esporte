@@ -78,6 +78,14 @@ form{
     text-align: center;
     margin-top: 200px;
 }
+.notifica{
+    margin-right: 60px;
+}
+.botao{
+display: flex;
+justify-content: center;
+align-items: center;
+}
 label{
     margin-top: 20%;
 }
