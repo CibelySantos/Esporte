@@ -6,7 +6,7 @@ html, body{
 }
 nav{
     padding: 20px;
-    background-color: darkcyan;
+    background-color: rgba(0, 0, 139, 0.538);
     color: white;
     display: flex;
     justify-content: space-between;
@@ -26,7 +26,7 @@ nav .nav-links ul li a{
     padding: 15px;
 }
 nav .nav-login{
-    background-color: darkcyan;
+    background-color: rgba(0, 0, 139, 0.538);
 }
 nav .nav-login a{
     text-decoration: none;
@@ -40,7 +40,7 @@ a:hover{
     height: 100%;
 }
 footer{
-    background-color: darkcyan;
+    background-color: rgba(0, 0, 139, 0.538);
     color: white;
     text-align: center;
     padding: 10px;
@@ -49,7 +49,7 @@ footer{
     width: 100%;
 }
 form{
-    background-color: darkcyan;
+    background-color: rgba(0, 0, 139, 0.538);
     border-radius: 10px;
     width: 330px;
     height: 250px;
@@ -58,11 +58,14 @@ form{
     text-align: center;
     margin-top: 200px;
 }
+label{
+    
+}
 input{
     width: 90%;
     padding: 6px;
     margin-bottom: 8px;
-    border: 1px solid darkblue;
+    border: 2px solid darkblue;
     border-radius: 5px;
 }
 #imagem1, #imagem2{
