@@ -86,3 +86,11 @@ p{
     margin-right: 250px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+#imagem3{
+    display: flex;
+    justify-content: center;
+}
+#imagem5{
+    display: flex;
+    justify-content: center;
+}
