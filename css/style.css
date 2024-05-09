@@ -49,6 +49,9 @@ footer{
     bottom: 0;
     width: 100%;
 }
+#footervideo{
+    position: fixed;
+}
 footer p{
     font-family:sans-serif;
     display: flex;
@@ -108,3 +111,7 @@ p{
     display: flex;
     justify-content: center;
 } 
+#video{
+    display: flex;
+    justify-content: center;
+}
