@@ -75,7 +75,7 @@ h1{
     display: flex;
     text-align: center;
     justify-content: center;
-    font-family: fantasy;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 p{
     display: flex;
